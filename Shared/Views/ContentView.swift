@@ -14,6 +14,7 @@ struct ContentView: View {
             VStack(spacing: 30) {
                 Logo()
                 Hero()
+                Header()
             }
             .padding()
         }
