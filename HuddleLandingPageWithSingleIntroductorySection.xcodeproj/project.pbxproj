@@ -13,6 +13,8 @@
 		907CC9D327FA80B90058600D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9C127FA80B80058600D /* ContentView.swift */; };
 		907CC9D427FA80B90058600D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907CC9C227FA80B90058600D /* Assets.xcassets */; };
 		907CC9D527FA80B90058600D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907CC9C227FA80B90058600D /* Assets.xcassets */; };
+		907CC9E227FBF8890058600D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9E127FBF8890058600D /* Background.swift */; };
+		907CC9E427FBF9010058600D /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9E327FBF9010058600D /* Logo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		907CC9C727FA80B90058600D /* HuddleLandingPageWithSingleIntroductorySection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuddleLandingPageWithSingleIntroductorySection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		907CC9CD27FA80B90058600D /* HuddleLandingPageWithSingleIntroductorySection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuddleLandingPageWithSingleIntroductorySection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		907CC9CF27FA80B90058600D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		907CC9E127FBF8890058600D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		907CC9E327FBF9010058600D /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				907CC9C127FA80B80058600D /* ContentView.swift */,
+				907CC9E127FBF8890058600D /* Background.swift */,
+				907CC9E327FBF9010058600D /* Logo.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 			files = (
 				907CC9D227FA80B90058600D /* ContentView.swift in Sources */,
 				907CC9D027FA80B90058600D /* HuddleLandingPageWithSingleIntroductorySectionApp.swift in Sources */,
+				907CC9E427FBF9010058600D /* Logo.swift in Sources */,
+				907CC9E227FBF8890058600D /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,15 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            ZStack(alignment: .top) {
-                Color("BackgroundColor")
-                Image("Background")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-            }
-            .edgesIgnoringSafeArea(.all)
+            Background()
             VStack {
-
+                Logo()
+                
             }
         }
     }
