@@ -13,10 +13,14 @@ struct ContentView: View {
             Background()
             VStack(spacing: 30) {
                 Logo()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 10)
                 Hero()
                 Header()
                 RegisterButton()
                     .padding(.horizontal, 50)
+                Spacer()
+                    .frame(height: 30)
                 SocialMediaButtons()
             }
             .padding()
