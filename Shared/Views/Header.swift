@@ -18,6 +18,7 @@ struct Header: View {
                 .fontWeight(.light)
                 .lineSpacing(5)
         }
+        .fixedSize(horizontal: false, vertical: true)
         .foregroundColor(.white)
         .multilineTextAlignment(.center)
     }

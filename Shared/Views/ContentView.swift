@@ -19,8 +19,6 @@ struct ContentView: View {
                 Header()
                 RegisterButton()
                     .padding(.horizontal, 50)
-                Spacer()
-                    .frame(height: 30)
                 SocialMediaButtons()
             }
             .padding()
