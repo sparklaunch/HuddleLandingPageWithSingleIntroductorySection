@@ -11,10 +11,11 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Background()
-            VStack {
+            VStack(spacing: 30) {
                 Logo()
-                
+                Hero()
             }
+            .padding()
         }
     }
 }
