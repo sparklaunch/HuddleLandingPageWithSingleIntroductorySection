@@ -15,6 +15,8 @@ struct ContentView: View {
                 Logo()
                 Hero()
                 Header()
+                RegisterButton()
+                    .padding(.horizontal, 50)
             }
             .padding()
         }
