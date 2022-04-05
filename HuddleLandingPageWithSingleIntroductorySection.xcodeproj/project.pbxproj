@@ -18,6 +18,8 @@
 		907CC9E627FBF9520058600D /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9E527FBF9520058600D /* Hero.swift */; };
 		907CC9E827FBF9E40058600D /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9E727FBF9E40058600D /* Header.swift */; };
 		907CC9EA27FBFA930058600D /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9E927FBFA930058600D /* RegisterButton.swift */; };
+		907CC9EC27FBFB8B0058600D /* SocialMediaButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9EB27FBFB8B0058600D /* SocialMediaButtons.swift */; };
+		907CC9EE27FBFB9D0058600D /* SocialMediaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907CC9ED27FBFB9D0058600D /* SocialMediaButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		907CC9E527FBF9520058600D /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		907CC9E727FBF9E40058600D /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		907CC9E927FBFA930058600D /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
+		907CC9EB27FBFB8B0058600D /* SocialMediaButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButtons.swift; sourceTree = "<group>"; };
+		907CC9ED27FBFB9D0058600D /* SocialMediaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				907CC9E527FBF9520058600D /* Hero.swift */,
 				907CC9E727FBF9E40058600D /* Header.swift */,
 				907CC9E927FBFA930058600D /* RegisterButton.swift */,
+				907CC9EB27FBFB8B0058600D /* SocialMediaButtons.swift */,
+				907CC9ED27FBFB9D0058600D /* SocialMediaButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,10 +222,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				907CC9E627FBF9520058600D /* Hero.swift in Sources */,
+				907CC9EE27FBFB9D0058600D /* SocialMediaButton.swift in Sources */,
 				907CC9D227FA80B90058600D /* ContentView.swift in Sources */,
 				907CC9D027FA80B90058600D /* HuddleLandingPageWithSingleIntroductorySectionApp.swift in Sources */,
 				907CC9EA27FBFA930058600D /* RegisterButton.swift in Sources */,
 				907CC9E427FBF9010058600D /* Logo.swift in Sources */,
+				907CC9EC27FBFB8B0058600D /* SocialMediaButtons.swift in Sources */,
 				907CC9E827FBF9E40058600D /* Header.swift in Sources */,
 				907CC9E227FBF8890058600D /* Background.swift in Sources */,
 			);
